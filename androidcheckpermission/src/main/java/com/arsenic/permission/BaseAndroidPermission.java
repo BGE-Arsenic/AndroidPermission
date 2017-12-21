@@ -64,7 +64,7 @@ public abstract class BaseAndroidPermission {
     }
 
     @NonNull
-    protected static void checkObjectValid(@NonNull Object object){
+    protected static void checkObjectsValid(@NonNull Object object){
         if (null == object){
             throw new NullPointerException("Activity or Fragment should not be null");
         }
